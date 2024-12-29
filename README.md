@@ -20,20 +20,20 @@ The drowsiness detection system is trained using the **Drowsiness Detection Data
 The eye state detection model is trained to classify eyes as either open or closed.
 
 #### Training Results
-![Eye Model Training Results](Image\Plot_eye_training_results.png)
+![Eye Model Training Results](Image/Plot_eye_training_results.png)
 *Figure 1: Training and validation accuracy/loss curves for eye detection model*
 
-![Eye Model Confusion Matrix](Image\Eye_confusion_matrix.png)
+![Eye Model Confusion Matrix](Image/Eye_confusion_matrix.png)
 *Figure 2: Confusion matrix showing eye detection model performance*
 
 ### Mouth State Detection Model (Version 6.3)
 The mouth state detection model is trained to detect yawning.
 
 #### Training Results
-![Mouth Model Training Results](Image\Plot_mouth_training_results.png)
+![Mouth Model Training Results](Image/Plot_mouth_training_results.png)
 *Figure 3: Training and validation accuracy/loss curves for mouth detection model*
 
-![Mouth Model Confusion Matrix](Image\Mouth_confusion_matrix.png)
+![Mouth Model Confusion Matrix](Image/Mouth_confusion_matrix.png)
 *Figure 4: Confusion matrix showing mouth detection model performance*
 
 ## Installation
