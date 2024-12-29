@@ -60,7 +60,7 @@ pip install -r requirements.txt
         - `simple_CNN_mouth_modelV6_3.keras`
     - After downloading, create a folder named `Model` inside the `Drowsy-Driver-Detection-System` directory. Move both model files (`.keras` files) into the `Model` directory.
     
-4. Download the facial landmark predictor:
+4. The face landmark predictor has been preloaded and placed in the Models folder:
    - `shape_predictor_68_face_landmarks.dat`
 
 ## Usage
@@ -76,7 +76,7 @@ python detection.py
    - Indicates severe drowsiness
 
 2. **Prolonged Eye Closure**
-   - Triggers when eyes remain closed for 5 seconds
+   - Triggers when eyes remain closed for 3 seconds
    - Alarm at 100% volume until eyes reopen
    - Prevents microsleep episodes
 
@@ -127,9 +127,6 @@ Check out our system in action:
 4. Machine learning model optimization for embedded systems
 5. Multiple camera angle support
 6. Cloud connectivity for fleet management
-
-## Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
