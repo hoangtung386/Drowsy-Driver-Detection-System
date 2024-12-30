@@ -39,7 +39,7 @@ The mouth state detection model is trained to detect yawning.
 ## Installation
 
 ### Prerequisites
-- Python 3.8 or higher
+- Python 3.9 or higher
 - Webcam
 
 ### Setup
@@ -58,7 +58,7 @@ pip install -r requirements.txt
     - Download the following model files from [this Google Drive link](https://drive.google.com/drive/folders/1gsN7ZrrrcjxTNn6BnZaLG-UdtJym7Dz1?usp=sharing):
         - `simple_CNN_eye_modelV6_3.keras`
         - `simple_CNN_mouth_modelV6_3.keras`
-    - After downloading, create a folder named `Model` inside the `Drowsy-Driver-Detection-System` directory. Move both model files (`.keras` files) into the `Model` directory.
+    - After downloading, move both model files (`.keras` files) into the `Models` folder.
     
 4. The face landmark predictor has been preloaded and placed in the Models folder:
    - `shape_predictor_68_face_landmarks.dat`
@@ -87,15 +87,18 @@ python detection.py
 ## Experimental Results
 
 ### Real-time Detection Examples
-![Example 1 will update soon](path_to_example_1.png)
+![Example 1](Image/Status_normal.png)
 *Figure 5: System detecting normal state*
 
-![Example 2 will update soon](path_to_example_2.png)
-*Figure 6: System detecting drowsiness*
+![Example 2](Image/Drowsy_warning.png)
+*Figure 6: System detecting drowsiness state*
 
-### Live Demo
-Check out our system in action:
-[Video demo will update soon](https://drive.google.com/file/placeholder_link/view)
+![Example 3](Image/Sleep_warning.png)
+*Figure 7: System detecting sleep state*
+
+![Example 4](Image/Face_not_detected.png)
+*Figure 8: System Warning - Face Not Detected*
+
 
 ## Technical Details
 

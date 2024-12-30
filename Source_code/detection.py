@@ -194,7 +194,7 @@ def main():
                    left_eye_state == "Eyes Closed" and \
                    right_eye_state == "Eyes Closed":
                     Thread(target=play_alarm, args=(0.7, 5)).start()
-                    current_status = "Warning: You are drowsy!"
+                    current_status = "Warning - You are drowsy!"
                 
                 # Case 2: Both eyes closed for 3 seconds
                 EAR_THRESHOLD = 0.2
@@ -205,7 +205,7 @@ def main():
                         eyes_closed_start_time = time.time()
                     elif time.time() - eyes_closed_start_time >= 3:
                         Thread(target=play_alarm, args=(1.0,)).start()
-                        current_status = "Warning: You are falling asleep!"
+                        current_status = "Warning - You are falling asleep!"
                 else:
                     eyes_closed_start_time = None
                     if pygame.mixer.get_busy():
@@ -228,7 +228,7 @@ def main():
                 if not alarm_active:
                     Thread(target=play_alarm, args=(0.7,)).start()
                     alarm_active = True
-                current_status = "Warning: Face Not Detected!"
+                current_status = "Warning - Face Not Detected!"
             
             # Draw status when no face is detected
             draw_status(frame, "Unknown", "Unknown", "Unknown", 
