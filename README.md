@@ -97,7 +97,7 @@ python detection.py
 *Figure 7: System detecting sleep state*
 
 ![Example 4](Image/Face_not_detected.png)
-*Figure 8: System Warning - Face Not Detected*
+*Figure 8: Face not detected - When distracted looking in another direction*
 
 
 ## Technical Details
