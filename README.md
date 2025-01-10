@@ -132,7 +132,7 @@ python detection.py
 6. Cloud connectivity for fleet management
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT License](LICENSE)
 
 ## Acknowledgments
 - dlib community for facial landmark detection
